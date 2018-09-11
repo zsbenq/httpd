@@ -1,0 +1,22 @@
+{
+  "name": "Non-participant Specified Location File",
+  "code": "pilrhealth:non_participant_specified_location",
+  "version": 1,
+  "description": "Non-participant Specified Location File",
+  "doc": "",
+  "definition_type": "file_handler",
+  "service": "typedLocationUpload",
+  "allow_dups": true,
+  "fileTypes": ".csv",
+  "col_name_row": 2,
+  "first_data_row": 3,
+"null_expressions": ["NaN", "Inf", ""],
+ "metadata_mappings": [
+    {
+      "from_name": "Time",
+      "to_name": "timestamp"
+    }
+  ]
+
+ }
+
