@@ -10,6 +10,16 @@
   "fileTypes": ".csv",
   "col_name_row": 1,
   "first_data_row": 2,
-  "null_expressions": ["NaN", "Inf", ""]
+  "null_expressions": ["NaN", "Inf", ""],
+ "metadata_mappings": [
+    {
+      "from_name": "Time",
+      "to_name": "timestamp"
+    },
+    {
+      "from_name": "Subject ID",
+      "to_name": "participant"
+    }
+  ]
 
  }
